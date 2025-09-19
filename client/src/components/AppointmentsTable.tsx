@@ -12,7 +12,7 @@ interface AppointmentsTableProps {
   onDelete: (id: number) => Promise<void>;
 }
 
-export const ConsultasTable = ({ 
+export const AppointmentsTable = ({ 
   appointments, 
   loading, 
   onEdit, 
