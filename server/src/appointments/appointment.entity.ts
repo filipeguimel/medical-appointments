@@ -1,9 +1,9 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn } from 'typeorm';
 
 export enum AppointmentStatus {
-  SCHEDULED = 'Scheduled',
-  CANCELLED = 'Cancelled',
-  COMPLETED = 'Completed',
+  SCHEDULED = 'Agendado',
+  CANCELLED = 'Cancelado',
+  COMPLETED = 'Realizado',
 }
 
 @Entity('appointments')
